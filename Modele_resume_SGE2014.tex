@@ -1,0 +1,93 @@
+% Modèle pour la soumission des résumés à SGE 2014
+% http://sge2014.sciencesconf.org/
+% auteur : Romain Corcolle, LGEP (Laboratoire de Génie Electrique de Paris)
+\documentclass[10pt]{article}
+
+\usepackage[french]{babel}
+\usepackage{graphicx,epsf,times}
+\usepackage[T1]{fontenc}
+\usepackage{psfrag}
+\usepackage{fullpage}
+\usepackage{subfigure}
+
+\makeatletter
+\def\captionof#1#2{{\def\@captype{#1}#2}}
+\makeatother
+
+\setlength{\hoffset}{-5mm}
+\setlength{\voffset}{-15mm}
+\setlength{\textheight}{25cm}
+\setlength{\textwidth}{17cm}
+
+
+\title{
+\vspace*{-0.5cm}
+\begin{flushright}
+\includegraphics[width=4.25cm]{logo_sge.eps}\\
+\normalsize{8-9 juillet 2014, Cachan}
+\end{flushright}
+\vspace*{36pt}
+\fontsize{18}{18}\selectfont
+\textbf{
+Titre de la communication (Style Titre.principal : Times new roman, 18 pts, gras, centré, interligne simple, 36 pts avant et après)
+}
+\normalsize
+\vspace*{12pt}}
+
+\author{Prénom NOM des auteurs (Style Nom : Times new roman, 11 pts, centré, interligne simple, 6 pts après) \normalsize}
+
+\date{\normalsize{Affiliation des auteurs (Style Affiliation : Times new roman, 10 pts, centré, interligne simple, 12 pts après)}}
+
+
+
+
+
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{empty}
+
+\noindent \textbf{RESUME -- Écrire un résumé de la communication de 10 lignes maximum. Ce résumé doit présenter de façon synthétique les objectifs du travail présenté, les principaux résultats et insister sur les originalités du travail. (Style Résumé : Times new roman, 10 pts, gras, justifié, interligne simple, 12 pts avant, 12 pts après)}\\[12pt]
+\textbf{MOTS-CLES -- Écrire ici une liste n'excédant pas 8 mots-clés significatifs. (Style Mots-Clés : Times new roman, 10 pts, gras, interligne simple, 12 pts avant, 30 pts après).}
+
+\vspace*{12pt}
+
+\section{Introduction (Style Titre 1 : Times new roman, 14 pts, gras, justifié, interligne simple, 12 pts avant, 6 pts après, hiérarchisation de 1er niveau de type 1.1.1\ldots)}
+
+\noindent Décrire le contexte et les objectifs du travail. Positionner le travail par rapport à la littérature et aux principaux travaux antérieurs. Présenter le plan de la communication. (Style Normal : Times new roman, 10 pts, justifié, interligne simple, 6 pts après).
+
+
+\section{Titre de section (Style Titre 1)}
+\subsection{test}
+\subsubsection{test2}
+
+\begin{equation}
+y=a.x+b
+\label{eq_homog}
+\end{equation}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=5cm]{logo_sge.eps}
+\caption{test}
+\end{figure}
+
+
+\thispagestyle{empty}
+
+\begin{thebibliography}{99}
+
+\bibitem{bib_BBG}{M. Bornert, T. Bretheau et P. Gilormini, \textit{Homogenization in Mechanics of Material}, Iste Publishing Company, 2007.}
+
+\bibitem{bib_LDRC}{L. Daniel et R. Corcolle, ``A note on the effective magnetic permeability of polycrystals'', \textit{IEEE Trans. Magn.}, vol. 43, no. 7, pp. 3153--3158, 2007.}
+
+\bibitem{bib_axell}{J. Axell, ``Bounds for field fluctuations in two-phase materials'', \textit{J. Appl. Phys.}, vol. 72, no. 4, pp. 1217--1220, 1992.}
+
+
+
+\end{thebibliography}
+
+
+\end{document}
