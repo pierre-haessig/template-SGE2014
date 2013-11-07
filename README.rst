@@ -10,6 +10,16 @@ http://sge2014.sciencesconf.org/
 
 *Licence :* document placé dans le domaine public (CC0)
 
+Compilation
+-----------
+
+Le template latex est compilable avec `pdflatex`
+
+    $ pdflatex Modele_resume_SGE2014.tex
+
+
+Développement
+-------------
 
 Pour récupérer la dernière version du template :
 https://github.com/pierre-haessig/template-SGE2014
