@@ -10,12 +10,17 @@ http://sge2014.sciencesconf.org/
 
 *Licence :* document placé dans le domaine public (CC0)
 
+documents :
+
+* template de résumé : `Modele_resume_SGE2014.tex` (`Modele_resume_SGE2014.doc` pour la version Word)
+* template d'article complet : `Modele_article_SGE2014.tex` (`Modele_article_SGE2014.docx` pour la version Word)
+
 Compilation
 -----------
 
 Le template latex est compilable avec `pdflatex`
 
-    $ pdflatex Modele_resume_SGE2014.tex
+    $ pdflatex Modele_article_SGE2014.tex
 
 
 Développement
