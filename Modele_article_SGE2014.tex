@@ -2,7 +2,7 @@
 % http://sge2014.sciencesconf.org/
 %
 % Auteur : Romain Corcolle, LGEP (Laboratoire de Génie Electrique de Paris)
-% modifié par : Pierre Haessig, SATIE
+% modifié par : Pierre Haessig et Thibaut Kovaltchouk, SATIE
 % Licence : document placé dans le domaine public (CC0)
 %
 % Pour récupérer la dernière version du template :
@@ -41,13 +41,13 @@
 \captionsetup[figure]{labelsep=period, justification=raggedright, singlelinecheck=false}
 \captionsetup[table]{labelsep=period, justification=centering, singlelinecheck=false}
 
-
 \parindent 10pt
 
-\setlength{\voffset}{-1.3in}
-\setlength{\topmargin}{1.25cm}
-\setlength{\headheight}{1.125cm}
-\setlength{\headsep}{0cm}
+\setlength{\voffset}{-0.55in}
+\setlength{\topmargin}{0cm}
+
+\setlength{\headsep}{0.16cm}
+\setlength{\topskip}{0.7cm}
 
 \setlength{\hoffset}{-1in}
 \setlength{\oddsidemargin}{1.3cm}
@@ -56,22 +56,22 @@
 \setlength{\textheight}{23.5cm}
 \setlength{\textwidth}{18.5cm}
 
-\setlength{\headsep}{0.67cm}
-\setlength{\columnwidth}{8.75cm}
+\setlength{\columnsep}{0.64cm}
 
 \setlength{\abovecaptionskip}{0em}
 \setlength{\belowcaptionskip}{0em}
 
 \titleformat{\section}
-  {\scshape\large}{\thesection.}{0.5em}{#1}
+  {\scshape}{\thesection.}{0.5em}{#1}
 \titleformat{\subsection}
-  {\itshape\large}{\thesubsection.}{1.5em}{#1}
+  {\itshape}{\thesubsection.}{1.5em}{#1}
 \titleformat{\subsubsection}
   {\itshape}{\thesubsubsection.}{1.5em}{#1}
-
-\titlespacing\section{0pt}{1em}{0.5em}
-\titlespacing\subsection{0pt}{1em}{0.5em}
-\titlespacing\subsubsection{0pt}{1em}{0.5em}
+  
+\setlength{\parskip}{0.5em plus0.1em minus0.05em}
+\titlespacing\section{0pt}{0.5em}{0em}
+\titlespacing\subsection{0pt}{0.5em}{0em}
+\titlespacing\subsubsection{0pt}{0.5em}{0em}
 
 \fancyhf{}
 \fancyhead[R]{\fontsize{8pt}{8pt}\selectfont \textsc{Symposium de Génie Électrique (SGE’14) : EF-EPF-MGE 2014, 8--10 juillet 2014, ENS Cachan, France}}
@@ -124,7 +124,7 @@ Les tableaux, figures et équations doivent respecter les numérotations et form
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=\columnwidth]{fig_1.pdf}
+		\includegraphics[width=0.9\columnwidth]{fig_1.pdf}
 	\end{center}
 	
 	\caption{Mettre ici le titre de la figure}
@@ -134,7 +134,7 @@ Les tableaux, figures et équations doivent respecter les numérotations et form
 \begin{table}[!h]
 	\caption{Mettre ici le titre du tableau}
 	
-	\begin{center}
+\centering
 		\begin{tabular}{|>{\footnotesize}L{1.4cm}|>{\footnotesize}L{1.5cm}|>{\footnotesize}L{2.4cm}|>{\footnotesize}L{2.1cm}|}
 			\hline
 			\textbf{Titre colonne 1} & \textbf{Titre colonne 2} & \textbf{Style (‘Titre colonnes tableaux’)} & \textbf{} \\
@@ -144,7 +144,7 @@ Les tableaux, figures et équations doivent respecter les numérotations et form
 			Donnée 2 & & & \\
 			\hline
 		\end{tabular}
-	\end{center}
+
 	
 	\label{tab_1}
 \end{table}
@@ -156,36 +156,23 @@ Les tableaux, figures et équations doivent respecter les numérotations et form
 	\label{eq_1}
 \end{equation}
 
-
-
-
 \section{Soumission de la communication}
 
 La soumission se fait en ligne à partir du site électronique de la conférence : \url{http://sge2014.sciencesconf.org/} (voir la rubrique ‘Soumission en ligne des communications’).
 
-
+Le fichier soumis sera préalablement converti au format PDF avec les polices incorporées et ne devra pas excéder la taille maximale de 3.5 Mo.
 
 \section{Conclusions}
 
 Rappeler les principaux résultats marquants et originaux du travail. Le cas échéant, proposer des perspectives au travail présenté.
 
-
-
 \section{Remerciements}
 
 Cette partie (facultative) doit être placée entre la conclusion et les références.
 
-
-
 \section{Références}
 
 Citer ici les principales références du travail réalisé (style ‘Références’). Privilégier les références les plus pertinentes et les publications originelles. Numéroter les références de la même façon que dans l’exemple ci-dessous – par ordre d’apparition dans le texte. Exemple XX\cite{bib_1} et YY\cite{bib_2,bib_3}.
-
-
-
-
-
-
 
 \begin{thebibliography}{1}
 

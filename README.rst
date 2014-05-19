@@ -6,7 +6,7 @@ http://sge2014.sciencesconf.org/
 
 *Auteur :* Romain Corcolle, LGEP (Laboratoire de Génie Electrique de Paris)
 
-*modifié par :* Pierre Haessig, SATIE
+*modifié par :* Pierre Haessig et Thibaut Kovaltchouk, SATIE
 
 *Licence :* document placé dans le domaine public (CC0)
 
