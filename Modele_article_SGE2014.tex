@@ -33,7 +33,7 @@
 \setlength{\bibsep}{0.2em}
 \setlength{\bibhang}{10em}
 
-\hypersetup{colorlinks=true, urlcolor=blue, urlbordercolor={0 0 1}, citecolor=black, citebordercolor={1 1 1}}
+\hypersetup{colorlinks=true, urlcolor=blue, citecolor=black, linkcolor = black}
 
 \addto\captionsfrench{\def\figurename{Fig.}}
 \addto\captionsfrench{\def\tablename{Tableau}}
@@ -41,12 +41,14 @@
 \captionsetup[figure]{labelsep=period, justification=raggedright, singlelinecheck=false}
 \captionsetup[table]{labelsep=period, justification=centering, singlelinecheck=false}
 
+\renewcommand{\baselinestretch}{1.2}
+
 \parindent 10pt
 
 \setlength{\voffset}{-0.55in}
 \setlength{\topmargin}{0cm}
 
-\setlength{\headsep}{0.16cm}
+\setlength{\headsep}{-0.10cm}
 \setlength{\topskip}{0.7cm}
 
 \setlength{\hoffset}{-1in}
@@ -68,10 +70,10 @@
 \titleformat{\subsubsection}
   {\itshape}{\thesubsubsection.}{1.5em}{#1}
   
-\setlength{\parskip}{0.5em plus0.1em minus0.05em}
-\titlespacing\section{0pt}{0.5em}{0em}
-\titlespacing\subsection{0pt}{0.5em}{0em}
-\titlespacing\subsubsection{0pt}{0.5em}{0em}
+\setlength{\parskip}{0.3em plus0.05em minus0.02em}
+\titlespacing\section{0pt}{0.3em}{0em}
+\titlespacing\subsection{0pt}{0.3em}{0em}
+\titlespacing\subsubsection{0pt}{0.3em}{0em}
 
 \fancyhf{}
 \fancyhead[R]{\fontsize{8pt}{8pt}\selectfont \textsc{Symposium de Génie Électrique (SGE’14) : EF-EPF-MGE 2014, 8--10 juillet 2014, ENS Cachan, France}}
