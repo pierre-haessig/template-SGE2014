@@ -41,7 +41,9 @@
 \captionsetup[figure]{labelsep=period, justification=raggedright, singlelinecheck=false}
 \captionsetup[table]{labelsep=period, justification=centering, singlelinecheck=false}
 
-\renewcommand{\baselinestretch}{1.2}
+% extra line spacing:
+\usepackage{setspace}
+\setstretch{1.15}
 
 \parindent 10pt
 
@@ -55,13 +57,10 @@
 \setlength{\oddsidemargin}{1.3cm}
 \setlength{\evensidemargin}{1.3cm}
 
-\setlength{\textheight}{23.5cm}
+\setlength{\textheight}{25.5cm}
 \setlength{\textwidth}{18.5cm}
 
 \setlength{\columnsep}{0.64cm}
-
-\setlength{\abovecaptionskip}{0em}
-\setlength{\belowcaptionskip}{0em}
 
 \titleformat{\section}
   {\scshape}{\thesection.}{0.5em}{#1}
